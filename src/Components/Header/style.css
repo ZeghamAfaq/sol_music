@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    flex: 1;
+    background-color: rgb(28, 28, 47);
+    color: white;
+}
+.nav{
+    flex: 2;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-type: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.logo{
+    margin: 20;
+    padding: 10;
+    display: inline;
+    list-style-type: none;
+    font-size: 32px;
+}
+.multiColor{
+    color: red;
+}
+
+.nav > li{
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    font-size: 24px;
+}
+.reg{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-type: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.reg > li {
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    font-size: 24px;
+}

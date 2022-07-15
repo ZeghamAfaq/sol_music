@@ -1,47 +1,73 @@
-.navbar{
+.mainheader {
     display: flex;
-    flex: 1;
-    background-color: rgb(28, 28, 47);
-    color: white;
-}
-.nav{
-    flex: 2;
-    margin: 0;
-    padding: 0;
-    display: inline;
-    list-style-type: none;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-.logo{
-    margin: 20;
-    padding: 10;
-    display: inline;
-    list-style-type: none;
-    font-size: 32px;
-}
-.multiColor{
-    color: red;
+    background-color: #08192d;
 }
 
-.nav > li{
-    float: left;
-    margin: 20px;
-    padding: 10px;
-    font-size: 24px;
+.left-nav {
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
-.reg{
+
+.logo {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.logo span {
+    color: #e00922;
+}
+
+.navbar {
+    display: flex;
+    flex: 6;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.right-nav {
+    display: flex;
     flex: 1;
     margin: 0;
     padding: 0;
-    display: inline;
-    list-style-type: none;
-    align-items: flex-start;
-    justify-content: flex-start;
 }
-.reg > li {
-    float: left;
-    margin: 20px;
-    padding: 10px;
-    font-size: 24px;
+
+.help {
+    flex: 1;
+}
+
+.help ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.reg {
+    flex: 1;
+}
+
+.reg ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.menu {
+    display: block;
+    background-color: #4c4c4c;
+    padding: 5px;
+    box-sizing: border-box;
 }

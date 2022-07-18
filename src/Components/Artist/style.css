@@ -1,0 +1,9 @@
+.artist{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.artist-heading{
+    font-size: 2rem;
+    color: rgb(48, 42, 91);
+}

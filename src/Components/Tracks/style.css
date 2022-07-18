@@ -1,0 +1,39 @@
+.track{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: 20px 30px;
+    padding: 14px 8px;
+}
+.track-heading{
+    flex: 1;
+    font-size: 2rem;
+    color: #08192d;
+}
+.track-desc{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #08192d;
+}
+.track-decs p{
+    font-size: 1rem;
+    color: #08192d;
+}
+.track-btn {
+    font-size: 1rem;
+    color: white;
+    border-radius: 36px;
+    background-color: #e00922;
+    cursor: pointer;
+    margin: 20px 15px;
+    padding: 20px 40px;
+}
+
+.track-btn:hover {
+    border-radius: 36px;
+    background-color: blueviolet;
+    font-size: 1.3rem;
+
+}

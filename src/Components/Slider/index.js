@@ -41,8 +41,8 @@ const Slider = () => {
             <img src={Image} alt='Music' className='img'/>
           </div></SwiperSlide>
         <SwiperSlide> <div className='left'>
-            <h1><span>Music</span> for 
-              everyone.
+            <h1><span>Listen</span> to 
+              new Music.
             </h1>
             <p>Lorem Ipsam Dollor Lorem Ipsam Dollor Lorem Ipsam Dollor Lorem Ipsam Dollor 
                 Lorem Ipsam Dollor

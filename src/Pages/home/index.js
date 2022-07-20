@@ -5,6 +5,8 @@ import Footer from '../../Components/Footer'
 import Subsription from '../../Components/Subsription'
 import Tracks from '../../Components/Tracks'
 import Artist from '../../Components/Artist'
+import HowSection from '../../Components/HowSection'
+import PremiumSection from '../../Components/PremiumSection'
 
 const Home = () => {
   return (
@@ -12,8 +14,10 @@ const Home = () => {
         <Header />
         <Slider />
         <Tracks />
-        <Subsription />
+        <HowSection />
         <Artist />
+        <Subsription />
+        <PremiumSection />
         <Footer />
     </div>
   )

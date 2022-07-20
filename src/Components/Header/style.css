@@ -1,6 +1,7 @@
 .mainheader {
     display: flex;
     background-color: #08192d;
+    border-radius: 0;
 }
 
 .left-nav {
@@ -113,6 +114,7 @@
     background-color: #4c4c4c;
     padding: 5px;
     height: 8vh;
+    border-radius: 0;
 }
 .menu-btn{
     display: flex;

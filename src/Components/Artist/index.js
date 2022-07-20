@@ -36,26 +36,26 @@ const Artist = () => {
         
           <div className='artist-cards'>
             <div className='artist-card1'>
-                <div>
+                <div className='artist-card1-img'>
                     <img src={card1} alt=' Artist' />
                 </div>
-                <div>
+                <div className='artist-card1-desc'>
                     <p>SolMusic</p>
                 </div>
             </div>
-             <div className='artist-card1'>
-                <div>
+             <div className='artist-card2'>
+                <div className='artist-card2-img'>
                     <img src={card2} alt=' Artist' />
                 </div>
-                <div>
+                <div className='artist-card2-desc'>
                     <p>Live Concerts</p>
                 </div>
             </div>
-             <div className='artist-card1'>
-                <div>
+             <div className='artist-card3'>
+                <div className='artist-card3-img'>
                     <img src={card3} alt=' Artist' />
                 </div>
-                <div>
+                <div className='artist-card3-desc'>
                     <p>Dj Sets</p>
                 </div>
             </div>
@@ -63,7 +63,7 @@ const Artist = () => {
                 <div className='artist-card4-img'>
                     <img src={card4} alt=' Artist' />
                 </div>
-                <div>
+                <div className='artist-card4-desc'>
                     <p>Live Streams</p>
                 </div>
             </div>

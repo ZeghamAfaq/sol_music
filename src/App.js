@@ -1,9 +1,22 @@
 import React from "react";
 import Home from "./Pages/Home";
+import Contact from "./Pages/Contact";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Router>
+    <Routes>
+      <Route path="/" element={<App />} />
+        <Route index element={<Home />} />
+        <Route path="Contact" element={<Contact />}>
+      </Route>
+    </Routes>
+  </Router>
     </div>
   );
 }

@@ -12,12 +12,14 @@ const Artist = () => {
     <div className='artist-component'>
         <div
         className='artist'>
+            {/* heading section */}
             <div className='artist-heading'>
             <h1>
                 Our Concepts &
                 Artists
             </h1>
         </div>
+        {/* description section */}
         <div className='artist-desc'>
             <p>
                 Lorem Ipsam dollor Lorem Ipsam dollor
@@ -33,7 +35,7 @@ const Artist = () => {
             </p>
         </div>
         </div>
-        
+        {/* different artist cards */}
           <div className='artist-cards'>
             <div className='artist-card1'>
                 <div className='artist-card1-img'>

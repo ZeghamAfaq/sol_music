@@ -15,6 +15,8 @@ const HowSection = () => {
                  <div className='icon1'>
                 <img src={icon1} alt='create account' />
             </div>
+            {/* create an account */}
+
             <h1>Create an Account</h1>
             <p>Lorem Ipsam Dollor Lorem Ipsam Dollor
                 Lorem Ipsam Dollor Lorem Ipsam Dollor
@@ -23,10 +25,12 @@ const HowSection = () => {
                 Lorem Ipsam Dollor Lorem Ipsam Dollor
             </p>
         </div>
+        {/* subscription plans */}
         <div className='plan'>
             <div className='icon2'>
                 <img src={icon2} alt='create account' />
             </div>
+            {/* download music */}
              <h1>Download Music</h1>
             <p>Lorem Ipsam Dollor Lorem Ipsam Dollor
                 Lorem Ipsam Dollor Lorem Ipsam Dollor

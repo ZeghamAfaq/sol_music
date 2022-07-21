@@ -1,47 +1,52 @@
 import React from 'react'
-import MenuIcon from '@mui/icons-material/Menu';
+import { Link } from 'react-router-dom'
+//import MenuIcon from '@mui/icons-material/Menu';
 import './style.css'
 const Header = () => {
   return (
     <>
     <div className='mainheader'>
-        <div className='logo'><link to='/home'><span>Sol</span>Music</link></div>
+        {/* logo */}
+        <div className='logo'><Link to='homepage'><span>Sol</span>Music</Link></div>
         <div className='left-nav'>
+            {/* main navigation bar */}
             <ul className='navbar'>
-                <li><link to='/home'>Home</link></li>
-                <li><link to='/about'>About</link></li>
-                <li className='dropdown'><a href='/pages'>Pages</a>
+                <li><Link to='homepage'>Home</Link></li>
+                <li><Link to='aboutpage'>About</Link></li>
+                <li className='dropdown'><Link to=''>Pages</Link>
                     <ul className='sub-menu'>
-                        <li><link to='/'>Category</link></li>
-                        <li><link to='/playlist'>Playlist</link></li>
-                        <li><link to='/'artist>Artist</link></li>
-                        <li><link to='/blog'>Blog</link></li>
-                        <li><link to='/contact'>Contact</link></li>
+                        <li><Link to='category'>Category</Link></li>
+                        <li><Link to='playlist'>Playlist</Link></li>
+                        <li><Link to='artistpage'>Artist</Link></li>
+                        <li><Link to='contactpage'>Blog</Link></li>
+                        <li><Link to='contactpage'>Contact</Link></li>
                     </ul>
                 </li>
-                <li><link to='/news'>News</link></li>
-                <li><link to='/contact'>Contact</link></li>
+                <li><Link to='news'>News</Link></li>
+                <li><Link to='contactpage'>Contact</Link></li>
             </ul>
         </div>
         <div className='right-nav'>
             <div className='help'>
                 <ul>
-                    <li><a href='/'>Help</a></li>
+                    <li><Link to=''>Help</Link></li>
                     <li>|</li>
                 </ul>
             </div>
             
             <div className='reg'>
                 <ul>
-                    <li><link to='/login'>Login</link></li>
-                    <li><link to='/create an account'>Create an Account</link></li>
+                    <li><Link to='contactpage'>Login</Link></li>
+                    <li><Link to='contactpage'>Create an Account</Link></li>
                 </ul>
             </div>
         </div>
     </div>
-    <div className='menu'>
+
+    {/* <div className='menu'>
             <button className='menu-btn'>Menu<MenuIcon /></button>
         </div>
+         */}
 </>
     
   )

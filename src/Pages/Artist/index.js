@@ -1,12 +1,12 @@
 import React from 'react'
 
-const News
+const Artist
  = () => {
   return (
-    <div>News
+    <div>Artist
         
     </div>
   )
 }
 
-export default News
+export default Artist

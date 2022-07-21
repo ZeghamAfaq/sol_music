@@ -3,9 +3,7 @@ import './style.css'
 import Image from '../../Images/img1.png'
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
+
 
 //  import required modules
 import { Pagination } from "swiper";

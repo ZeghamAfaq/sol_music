@@ -4,7 +4,7 @@ const News
  = () => {
   return (
     <div>News
-        
+        News page is under construction
     </div>
   )
 }

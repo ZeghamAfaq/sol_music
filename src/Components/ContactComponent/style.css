@@ -1,0 +1,11 @@
+.contact-component{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.map{
+    flex: 1;
+}
+.contact-form{
+    flex: 1;
+}

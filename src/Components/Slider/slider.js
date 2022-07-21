@@ -4,7 +4,6 @@ import Image from '../../Images/img1.png'
 import { Swiper, SwiperSlide } from "swiper/react";
 
 
-
 //  import required modules
 import { Pagination } from "swiper";
 const Slider = () => {

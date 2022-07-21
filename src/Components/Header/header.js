@@ -11,8 +11,8 @@ const Header = () => {
         <div className='left-nav'>
             {/* main navigation bar */}
             <ul className='navbar'>
-                <li><Link to='homepage'>Home</Link></li>
-                <li><Link to='aboutpage'>About</Link></li>
+                <li><Link to='home'>Home</Link></li>
+                <li><Link to='home'>About</Link></li>
                 <li className='dropdown'><Link to=''>Pages</Link>
                     <ul className='sub-menu'>
                         <li><Link to='category'>Category</Link></li>
